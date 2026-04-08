@@ -5,7 +5,7 @@ url: "https://distinctcharacter.github.io"
 baseurl: ""
 
 # Theme
-remote_theme: mmistakes/minimal-mistakes@4.21.0
+remote_theme: benbalter/retlab
 minimal_mistakes_skin: "air"
 
 # Author
