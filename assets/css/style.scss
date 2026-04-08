@@ -1,0 +1,11 @@
+---
+---
+@import "{{ site.theme }}";
+
+body {
+    color: #4B0082; /* This is the hex code for a deep, rich indigo/purple */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #301934; /* A slightly darker shade of purple for headings */
+}
