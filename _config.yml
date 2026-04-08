@@ -1,10 +1,3 @@
 title: The Character Archive
 description: The integrated approach to self-mastery. Decoding the connection between the nervous system, gut health, and human behavior.
-theme: remote_theme: "pages-themes/cayman@v0.2.0"
-
-# This line fixes the blue links
-link_color: "#4B0082" 
-
-# This tells the theme to stop showing the username
-url: "https://distinctcharacter.github.io"
-baseurl: ""
+remote_theme: pages-themes/cayman@v0.2.0
