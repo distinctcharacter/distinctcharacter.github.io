@@ -1,19 +1,26 @@
 ---
 ---
-@import "{{ site.theme }}";
+@import "{{ site.remote_theme }}";
 
-/* Force purple on everything that could possibly be a link or text */
-body, h1, h2, h3, h4, h5, h6, a, a:visited, .post-link, .site-title, .site-footer {
+/* Force Purple Everywhere */
+body, h1, h2, h3, h4, h5, h6, a, .page-header, .main-content {
     color: #4B0082 !important;
 }
 
-/* Ensure hover state is dark */
-a:hover {
-    color: #301934 !important;
+/* Force Links to be Purple */
+a {
+    color: #4B0082 !important;
+    text-decoration: underline;
 }
 
-/* Clean up footer layout */
+/* Force Header Background to clean white */
+.page-header {
+    background-image: none !important;
+    background-color: #ffffff !important;
+    border-bottom: 2px solid #4B0082;
+}
+
+/* Clean up Footer */
 .site-footer {
     border-top: 1px solid #4B0082;
-    padding-top: 10px;
 }
