@@ -1,3 +1,10 @@
 title: Distinct Character
 description: The integrated approach to self-mastery. Decoding the connection between the nervous system, gut health, and human behavior.
 theme: minima
+
+# This line fixes the blue links
+link_color: "#4B0082" 
+
+# This tells the theme to stop showing the username
+url: "https://distinctcharacter.github.io"
+baseurl: ""
